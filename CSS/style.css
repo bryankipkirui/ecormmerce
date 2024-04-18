@@ -1,5 +1,29 @@
 html{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-image: url(../images/projects/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    align-items: baseline;
+}
+
+.links{
+    float: right;
+    margin: 10px;
+}
+.logo{
+    width: 100px;
+    height: 60px;
+}
+
+.links a{
+    color: white;
+    margin: 2px;
+    padding: 6px;
+    text-decoration: none;
 }
